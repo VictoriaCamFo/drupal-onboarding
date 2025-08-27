@@ -1,0 +1,31 @@
+# Lando
+.lando.local.yml
+.lando.yml.backup
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Drupal settings
+/docroot/sites/*/settings.php
+/docroot/sites/*/settings.local.php
+/docroot/sites/*/services.local.yml
+
+# Drupal files (user uploads, cache, styles, etc.)
+/docroot/sites/*/files/css
+/docroot/sites/*/files/js
+/docroot/sites/*/files/php
+/docroot/sites/*/files/tmp
+/docroot/sites/*/files/config_*
+/docroot/sites/*/files/styles
+
+# Node
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+name: drupalonboarding
+recipe: drupal10
+config:
+  webroot: docroot/web
+services:
+  appserver:
+    type: php:8.3
+  database:
+    type: mariadb:10.6    
+tooling:
+  composer:
+    service: appserver
+  drush:
+    service: appserver
