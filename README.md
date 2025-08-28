@@ -10,7 +10,7 @@ This is the practice repository using **Drupal 10** and **Lando**.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/DrupalOnboarding.git
+   git clone https://github.com/VictoriaCamFo/DrupalOnboarding.git
    cd DrupalOnboarding
    
    lando start
