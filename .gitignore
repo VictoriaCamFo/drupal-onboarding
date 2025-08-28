@@ -4,20 +4,20 @@
 
 # Composer dependencies
 /vendor/
-composer.lock
+
+# Drupal core & contrib (instalados con Composer)
+docroot/web/core/
+docroot/web/modules/contrib/
+docroot/web/themes/contrib/
+docroot/web/profiles/contrib/
 
 # Drupal settings
-/docroot/sites/*/settings.php
-/docroot/sites/*/settings.local.php
-/docroot/sites/*/services.local.yml
+docroot/web/sites/*/settings.php
+docroot/web/sites/*/settings.local.php
+docroot/web/sites/*/services.local.yml
 
-# Drupal files (user uploads, cache, styles, etc.)
-/docroot/sites/*/files/css
-/docroot/sites/*/files/js
-/docroot/sites/*/files/php
-/docroot/sites/*/files/tmp
-/docroot/sites/*/files/config_*
-/docroot/sites/*/files/styles
+# Drupal user files (uploads, cache, styles, etc.)
+docroot/web/sites/*/files/
 
 # Node
 /node_modules/
@@ -29,3 +29,10 @@ composer.lock
 .idea/
 .DS_Store
 Thumbs.db
+
+# Other
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
