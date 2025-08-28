@@ -8,7 +8,6 @@ services:
   database:
     type: mariadb:10.6    
 tooling:
-  composer:
-    service: appserver
   drush:
     service: appserver
+    cmd: /app/docroot/vendor/bin/drush -r /app/docroot/web

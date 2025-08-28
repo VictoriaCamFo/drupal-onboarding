@@ -1,0 +1,22 @@
+{
+    "require": {
+        "drush/drush": "13",
+        "drupal/core-recommended": "11",
+        "drupal/core-composer-scaffold": "11",
+        "drupal/core-project-message": "11",
+        "drupal/gin": "4.1",
+        "drupal/gin_toolbar": "2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
+        }
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}
